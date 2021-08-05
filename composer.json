@@ -1,5 +1,5 @@
 {
-  "name": "phpunit/phpunit-tideways-listener",
+  "name": "koekaverna/phpunit-php-profiler-listener",
   "description": "TestListener for PHPUnit that can dump profile information",
   "license": "BSD-3-Clause",
   "authors": [
@@ -16,6 +16,9 @@
     "php": "^7.1",
     "ext-json": "*",
     "ext-tideways_xhprof": "*",
+    "perftools/php-profiler": "^0.18.0"
+  },
+  "require-dev": {
     "phpunit/phpunit": "^8.4"
   },
   "autoload": {
@@ -29,4 +32,3 @@
     }
   }
 }
-

@@ -36,7 +36,7 @@ The example below shows how you activate and configure this test listener in you
     </filter>
 
     <extensions>
-        <extension class="PHPUnit\Tideways\TestListener">
+        <extension class="PHPUnit\Xhgui\TestListener">
             <arguments>
                 <string>/tmp</string>
             </arguments>
@@ -48,7 +48,7 @@ The example below shows how you activate and configure this test listener in you
 The following elements are relevant to this test listener and its configuration:
 
 * `<extensions>` is the configuration section for test runner extensions
-* `<extension>` configures (an instance of) the `PHPUnit\Tideways\TestListener` class as a test runner extension
+* `<extension>` configures (an instance of) the `PHPUnit\Xhgui\TestListener` class as a test runner extension
 * `<arguments>` is the configuration for that test runner extension
 * The only argument is the path to the directory where the profile information for each test is to be dumped, in this example `/tmp`
 
